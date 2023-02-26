@@ -18,7 +18,7 @@ pickbtn.addEventListener("click", async () => {
       console.log(data.result);
       if (data.result) {
         colorMsg.innerHTML =
-          "whole content of page is copied to clipboard &check;";
+          "whole content of this page has been copied to your clipboard &check;";
       } else {
         errMsg.innerHTML = "nothing to copy from this web page 	&#10060;";
       }
