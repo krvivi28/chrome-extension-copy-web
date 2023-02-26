@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "copify",
+    "description": "An extension which copies content from web pages",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/images/copy.png"
+    },
+    "icons": {
+        "16": "/images/copy.png",
+        "32": "/images/copy.png",
+        "48": "/images/copy.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
